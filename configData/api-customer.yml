@@ -4,19 +4,14 @@ spring:
   application:
     name: api-customer
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/dh-group5-dev
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/dh-group5-dev
     username: group5-user
     password: group5-pwd
   jpa:
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MySQL5Dialect
-    show-sql: true
-    database: mysql
+    hibernate.ddl-auto: update
     generate-ddl: true
-    hibernate:
-      ddl-auto: update
+    show-sql: true
 
 info:
   application:
