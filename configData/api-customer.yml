@@ -5,9 +5,9 @@ spring:
     name: api-customer
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/dh-group5-dev
-    username: group5-user
-    password: group5-pwd
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/grupo5
+    username: root
+    password: Wire2681
   jpa:
     hibernate.ddl-auto: update
     generate-ddl: true
