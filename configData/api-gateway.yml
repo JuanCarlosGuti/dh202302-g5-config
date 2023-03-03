@@ -15,7 +15,7 @@ spring:
           predicates:
             -Path=/customers/**
         - id: msswallet
-          uri: lb://api-customer
+          uri: lb://api-wallet
           predicates:
             -Path=/wallet/**
 
