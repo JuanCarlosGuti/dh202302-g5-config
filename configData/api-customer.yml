@@ -5,7 +5,7 @@ spring:
     name: api-customer
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/grupo5
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/baseback
     username: root
     password: Wire2681
   jpa:
