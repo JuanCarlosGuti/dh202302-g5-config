@@ -10,7 +10,7 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: microservicio-usuarios
+        - id: usuarios-microservicio
           uri: lb://usuarios-microservicio
           predicates:
             - Path=/api/alumnos/
