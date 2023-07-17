@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/dh202302-g5-config.iml" filepath="$PROJECT_DIR$/.idea/dh202302-g5-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dh202302-g5-config.iml" filepath="$PROJECT_DIR$/dh202302-g5-config.iml" />
     </modules>
   </component>
 </project>

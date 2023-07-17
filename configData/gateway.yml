@@ -10,14 +10,10 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: msscustomer
-          uri: lb://api-customer
+        - id: microservicio-usuarios
+          uri: lb://microservicio-usuarios
           predicates:
-            -Path=/customers/**
-        - id: msswallet
-          uri: lb://api-wallet
-          predicates:
-            -Path=/wallet/**
+            -Path=/api/alumnos/**
 
 info:
   app:
