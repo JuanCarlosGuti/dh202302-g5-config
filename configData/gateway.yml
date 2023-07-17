@@ -14,6 +14,11 @@ spring:
           uri: lb://microservicio-usuarios
           predicates:
             - Path=/api/alumnos/
+        - id: api-wallet
+          uri: lb://api-wallet
+          predicates:
+            - Path=/wallet
+
 
 info:
   app:
