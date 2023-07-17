@@ -11,7 +11,7 @@ spring:
           enabled: true
       routes:
         - id: microservicio-usuarios
-          uri: lb://microservicio-usuarios
+          uri: lb://usuarios-microservicio
           predicates:
             - Path=/api/alumnos/
         - id: api-wallet
