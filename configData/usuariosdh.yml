@@ -2,7 +2,7 @@ server:
   port: ${PORT:${SERVER_PORT:0}}
 spring:
   application:
-    name: alumnos
+    name: usuariosdh
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/baseback
@@ -15,7 +15,7 @@ spring:
 
 info:
   application:
-    name: alumnos
+    name: usuariosdh
 
 eureka:
   instance:
