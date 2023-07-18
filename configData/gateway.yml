@@ -13,7 +13,7 @@ spring:
         - id: usuarios-microservicio
           uri: lb://usuarios-microservicio
           predicates:
-            - Path=/api/alumnos
+            - Path=/api/usuarios
         - id: api-wallet
           uri: lb://api-wallet
           predicates:
@@ -21,7 +21,7 @@ spring:
         - id: usuariosdh
           uri: lb://usuariosdh
           predicates:
-            - Path=/api/**
+            - Path=/api/alumnos
 
 
 info:
