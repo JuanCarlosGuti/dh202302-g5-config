@@ -8,10 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="usuariosdh" />
-        <module name="gateway" />
         <module name="eureka" />
-        <module name="commons" />
         <module name="curso" />
+        <module name="usuario-common" />
+        <module name="gateway" />
+        <module name="commons" />
         <module name="configserver-app" />
       </profile>
     </annotationProcessing>
@@ -23,6 +24,7 @@
       <module name="curso" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="usuario-common" options="-parameters" />
       <module name="usuariosdh" options="-parameters" />
     </option>
   </component>

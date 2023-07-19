@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/../configserver-app/pom.xml" />
         <option value="$PROJECT_DIR$/../commons/pom.xml" />
         <option value="$PROJECT_DIR$/../curso/pom.xml" />
+        <option value="$PROJECT_DIR$/../usuario-common/pom.xml" />
       </list>
     </option>
   </component>
