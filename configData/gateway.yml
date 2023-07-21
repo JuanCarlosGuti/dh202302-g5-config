@@ -14,10 +14,10 @@ spring:
           uri: lb://cursos
           predicates:
             - Path=/api/cursos/**
-        - id: api-wallet
-          uri: lb://api-wallet
+        - id: examenes
+          uri: lb://examenes
           predicates:
-            - Path=/wallet
+            - Path=/api/examenes/**
         - id: usuariosdh
           uri: lb://usuariosdh
           predicates:
