@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="usuariosdh" />
+        <module name="common-examen" />
         <module name="eureka" />
         <module name="curso" />
         <module name="usuario-common" />
@@ -17,9 +18,15 @@
         <module name="configserver-app" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common-examenes" target="17" />
+      <module name="microservicios-examenes" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common-examen" options="-parameters" />
+      <module name="common-examenes" options="-parameters" />
       <module name="commons" options="-parameters" />
       <module name="configserver-app" options="-parameters" />
       <module name="curso" options="-parameters" />
