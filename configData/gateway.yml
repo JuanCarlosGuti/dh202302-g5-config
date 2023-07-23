@@ -22,6 +22,10 @@ spring:
           uri: lb://usuariosdh
           predicates:
             - Path=/api/alumnos/**
+        - id: respuestas
+          uri: lb://respuestas
+          predicates:
+            - Path=/api/respuestas/**
 
 
 info:

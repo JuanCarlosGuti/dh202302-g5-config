@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="usuariosdh" />
+        <module name="respuestas" />
         <module name="common-examen" />
         <module name="eureka" />
         <module name="curso" />
@@ -33,6 +34,7 @@
       <module name="eureka" options="-parameters" />
       <module name="examenes" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="respuestas" options="-parameters" />
       <module name="usuario-common" options="-parameters" />
       <module name="usuariosdh" options="-parameters" />
     </option>
