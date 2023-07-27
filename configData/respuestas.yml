@@ -3,15 +3,9 @@ server:
 spring:
   application:
     name: respuestas
-  mongodb:
-    embedded:
-      version: 4.0.2
   data:
     mongodb:
-      database: respuestasdb
-      username: usr
-      password: pwd
-      port: 27017
+      uri: mongodb://localhost:27017/db_respuestas
 
 info:
   application:

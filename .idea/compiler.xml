@@ -22,6 +22,7 @@
     <bytecodeTargetLevel>
       <module name="common-examenes" target="17" />
       <module name="microservicios-examenes" target="1.5" />
+      <module name="microservicios-respuestas" target="12" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -34,6 +35,7 @@
       <module name="eureka" options="-parameters" />
       <module name="examenes" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="microservicios-respuestas" options="-parameters" />
       <module name="respuestas" options="-parameters" />
       <module name="usuario-common" options="-parameters" />
       <module name="usuariosdh" options="-parameters" />
