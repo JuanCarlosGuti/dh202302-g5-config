@@ -3,18 +3,9 @@ server:
 spring:
   application:
     name: respuestas
-  spring:
-    data:
-      mongodb:
-        username: usr-inscription-mongo
-        password: pwd-inscription-mongo
-        database: inscription-dev-mongo
-        port: 27017
-        host: localhost
-      jpa:
-        hibernate.ddl-auto: update
-        generate-ddl: true
-        show-sql: true
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/db_respuestas
 
 info:
   application:
