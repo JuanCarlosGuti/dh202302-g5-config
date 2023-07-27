@@ -3,9 +3,10 @@ server:
 spring:
   application:
     name: respuestas
-  data:
-    mongodb:
-      uri: mongodb://localhost:27017/db_respuestas
+  spring:
+    datasource:
+      url: jdbc:mongodb://localhost:27017/db_respuestas
+      driver-class-name: com.mongodb.MongoClient
 
 info:
   application:
