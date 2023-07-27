@@ -9,7 +9,7 @@ spring:
 
 info:
   application:
-    name: cursos
+    name: respuestas
 
 eureka:
   instance:
