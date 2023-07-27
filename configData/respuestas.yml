@@ -3,9 +3,9 @@ server:
 spring:
   application:
     name: respuestas
-  datasource:
-    url: mongodb://localhost:27017/db_respuestas
-      
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/db_respuestas
 
 info:
   application:
